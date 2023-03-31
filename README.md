@@ -5,7 +5,7 @@ Mac shell script to import zscaler root CA certificate into various trust stores
 ## Usage
 
 ```shell
-./import-zscaler-cert
+./import-zscaler-cert.sh
 ```
 
 No arguments required, the root CA cert is embedded in the script.
@@ -19,7 +19,9 @@ updates the following trust stores:
 * JetBrains applications (`~/Library/Application\ Support/JetBrains/*`)
 * DBeaver (`/Applications/DBeaver.app`)
 
-## License
+## Copyright and License
+
+Copyright Andrew M. Inggs.
 
 Licensed under the Apache License, Version 2.0, unless otherwise
 explicitly stated. See file LICENSE for details.
